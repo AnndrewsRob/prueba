@@ -36,7 +36,7 @@ SECRET_KEY = getenv('DJANGO_SECRET_KEY',get_random_secret_key())
 DEBUG = getenv('DEBUG','False') == 'True'
 
 
-ALLOWED_HOSTS=getenv('DJANGO_ALLOWED_HOSTS','127.0.0.1,localhost').split(',')
+ALLOWED_HOSTS=getenv('DJANGO_ALLOWED_HOSTS','127.0.0.1,localhost','prueba-production-8e48.up.railway.app').split(',')
 
 
 
